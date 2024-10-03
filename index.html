@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="button_box">
+                <div class="btn"></div>
+                <button type="button" class="toggle_btn login_btn">Login</button>
+                <button type="button" class="toggle_btn register_btn">Register</button>
+            </div>
+            <div class="social_icon">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-github-fill"></i>
+                <i class="ri-facebook-circle-fill"></i>
+            </div>
+            <form id="login" class="input_group">
+                <input type="text" id="login-user-id" class="input_field" placeholder="User Id" required>
+                <input type="password" id="login-password" class="input_field" placeholder="Password" required
+                    minlength="10">
+                <input type="checkbox" class="check_box"><span>Remember Me</span>
+                <button type="submit" class="submit_btn">Login</button>
+            </form>
+            <form id="register" class="input_group">
+                <input type="text" id="register-user-id" class="input_field" placeholder="User Id" required>
+                <input type="email" id="register-email" class="input_field" placeholder="Email" required>
+                <input type="password" id="register-password" class="input_field" placeholder="Password" required
+                    minlength="10">
+                <input type="checkbox" class="check_box"><span>Remember Me</span>
+                <button type="submit" class="submit_btn">Register</button> <!-- Corrected here -->
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
